@@ -8,6 +8,10 @@ import java.util.List;
  * 最大值计算问题：初始化最大值索引 maxVal 时，应该是 maxVal = 0 而不是 maxVal = dp[0]。
  * 最大子集倒推问题：存储最大子集时应该使用 nums[maxVal] 而不是 nums[i]，并且应该将 maxVal 赋值为 nums[i] 而不是 maxVal = nums[i]
  */
+
+ /**
+  * nice coding
+  */
 class Solution3 {
     public List<Integer> largestDivisibleSubset(int[] nums) {
         int len = nums.length;
